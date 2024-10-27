@@ -8,7 +8,7 @@ export function Pokemon({ pokemon }) {
                 <h3>Estadisticas</h3>
                 <p>Altura: {pokemon?.height}</p>
                 <p>Peso: {pokemon?.weight}</p>
-                <img src={pokemon.sprites.other["official-artwork"].front_default} />
+                <img src={pokemon?.sprites.other["official-artwork"].front_default} />
             </div>
         </main>
     )

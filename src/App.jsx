@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import './App.css'
 import { Pokemon } from './componentes/Pokemon'
 import { usePokemon } from './hooks/usePokemon'
